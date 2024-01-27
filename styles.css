@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Kanit:wght@200&family=Philosopher:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Parisienne&display=swap');
+
+/*
+font-family: 'Chakra Petch', sans-serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Philosopher', sans-serif;
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Parisienne', cursive;
+*/
+@media only screen and (max-width: 1700px) {
+body{
+    background-color: #222222;
+    margin: 1rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+
+.header-container {
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 6.25rem;
+    position: relative;
+    gap: 1rem;
+
+    h4{
+        color: #acabab;
+    }
+    
+    h1{
+        color: aliceblue;
+        font-family: 'Philosopher', sans-serif;
+        margin-right: 20rem;
+    }
+
+}
+
+  .header-container-title{
+    display: flex;
+    justify-content: center;
+  }
+
+  .header-container-nav-sec{
+    display: flex;
+    justify-content: end;
+  }
+  .header-container-nav{
+
+      nav ul {
+          /* margin-right: 3rem; */
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+        }
+        
+        li {
+            list-style: none;
+            margin-right: 5rem;
+        }
+        
+        a {
+            font-size: 0.875rem;
+            font-weight: 800;
+            text-decoration: none;
+            color: rgb(153, 153, 153);
+        }
+    }
+    .header-container-nav-sec{
+
+        nav ul {
+            /* margin-right: 3rem; */
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+          }
+          
+          li {
+              list-style: none;
+              margin-right: 1rem;
+          }
+          
+          a {
+              font-size: 0.875rem;
+              font-weight: 800;
+              text-decoration: none;
+              color: rgb(153, 153, 153);
+          }
+      }
+
+  i{
+    margin-right: .3125rem;
+  }
+
+  .about{
+    display: grid;
+    grid-template-columns: 45% 55%;
+    justify-items: end;
+}
+
+.about-section{
+    display: flex;
+    flex-direction: column;
+    
+    background-color: #5c514d;
+    padding: 5rem;
+    border-radius: 3rem;
+    h2{
+        font-family: 'Parisienne', cursive;
+        color: aliceblue;
+    }
+
+    h1{
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 4rem;
+        color: aliceblue;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+    }
+    p{
+        color: aliceblue;
+        font-family: 'Kanit', sans-serif;
+    }
+    button{
+        background-color: #ffa87c;
+        border-radius: 5rem;
+        height: 3rem;
+        width: 9rem;
+        font-weight: bolder;
+        font-family: 'Kanit', sans-serif; 
+        border-color: transparent;
+        font-size: 1rem;
+        margin-top: 2rem;
+    }
+
+  }
+
+  .about-image{
+    height: 672px;
+    width: fit-content;
+    img{
+      border-radius:  3rem;
+      height: 672px;
+    }
+  }
+  
+  .more-div{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10rem;
+    border-radius: 2rem;
+    background-color: #3b3b3b;
+    font-family: 'Kanit', sans-serif;
+    color: aliceblue;
+  }
+
+  .more-div-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img{
+        width: 3rem;
+    }
+  }
+
+  
+    
+  }
+
+  @media only screen and (max-width: 2000px) and (min-width: 1700px){
+    body{
+        background-color: #222222;
+        margin: 1rem;
+        margin-left: 18rem;
+        margin-right: 18rem;
+    }
+    
+    
+    .header-container {
+        font-family: 'Kanit', sans-serif;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 6.25rem;
+        position: relative;
+        gap: 1rem;
+    
+        h4{
+            color: #acabab;
+        }
+        
+        h1{
+            color: aliceblue;
+            font-family: 'Philosopher', sans-serif;
+            margin-right: 20rem;
+        }
+    
+    }
+    
+      .header-container-title{
+        display: flex;
+        justify-content: center;
+      }
+    
+      .header-container-nav-sec{
+        display: flex;
+        justify-content: end;
+      }
+      .header-container-nav{
+    
+          nav ul {
+              /* margin-right: 3rem; */
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+            }
+            
+            li {
+                list-style: none;
+                margin-right: 5rem;
+            }
+            
+            a {
+                font-size: 0.875rem;
+                font-weight: 800;
+                text-decoration: none;
+                color: rgb(153, 153, 153);
+            }
+        }
+        .header-container-nav-sec{
+    
+            nav ul {
+                /* margin-right: 3rem; */
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+              }
+              
+              li {
+                  list-style: none;
+                  margin-right: 1rem;
+              }
+              
+              a {
+                  font-size: 0.875rem;
+                  font-weight: 800;
+                  text-decoration: none;
+                  color: rgb(153, 153, 153);
+              }
+          }
+    
+      i{
+        margin-right: .3125rem;
+      }
+    
+      .about{
+        display: grid;
+        grid-template-columns: 45% 55%;
+        justify-items: end;
+    }
+    
+    .about-section{
+        display: flex;
+        flex-direction: column;
+        
+        background-color: #5c514d;
+        padding: 5rem;
+        border-radius: 3rem;
+        h2{
+            font-family: 'Parisienne', cursive;
+            color: aliceblue;
+        }
+    
+        h1{
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 4rem;
+            color: aliceblue;
+            margin-block-start: 0em;
+            margin-block-end: 0em;
+        }
+        p{
+            color: aliceblue;
+            font-family: 'Kanit', sans-serif;
+        }
+        button{
+            background-color: #ffa87c;
+            border-radius: 5rem;
+            height: 3rem;
+            width: 9rem;
+            font-weight: bolder;
+            font-family: 'Kanit', sans-serif; 
+            border-color: transparent;
+            font-size: 1rem;
+            margin-top: 2rem;
+        }
+    
+      }
+    
+      .about-image{
+        height: 672px;
+        width: fit-content;
+        img{
+          border-radius:  3rem;
+          height: 672px;
+        }
+      }
+      
+      .more-div{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 10rem;
+        border-radius: 2rem;
+        background-color: #3b3b3b;
+        font-family: 'Kanit', sans-serif;
+        color: aliceblue;
+      }
+    
+      .more-div-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img{
+            width: 3rem;
+        }
+      }  
+      }
